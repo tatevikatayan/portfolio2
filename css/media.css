@@ -698,11 +698,15 @@
 }
 @media(max-width: 590px){
     .header {
-        width: 590px;
+        padding-bottom: 9px;
     }
     .container {
         max-width: 450px;
-        margin-left: 0;
+        margin-left: -40px;
+    }
+    .header__inner {
+        height: 42px;
+        max-width: 300px;
     }
     .gallery__item, .gallery__item img {
         width: 255px;
