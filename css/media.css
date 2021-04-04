@@ -106,6 +106,9 @@
     .footer__wrapper {
         width: 990px;
     }
+    .header__wrapper {
+        width: 1000px;
+    }
 
 }
 @media(max-width: 1180px){
@@ -151,7 +154,9 @@
     .tarvitsetko__pickture3 {
         right:-143px;
     }
-    
+    .header__wrapper {
+        width: 900px;
+    }
 }
 @media(max-width: 1024px){
     .container{
@@ -342,6 +347,9 @@
         margin-top: 50px;
         z-index: 10;
     }
+    .header__wrapper {
+        width: 750px;
+    }
 }
 @media(max-width: 852px){
     .slider__item .item__card{
@@ -398,6 +406,9 @@
     .item__card img {
         margin: -176px auto 0;
     }
+    .header__wrapper {
+        width: 650px;
+    }
 }
 @media(max-width: 768px){
     .container {
@@ -419,7 +430,7 @@
         height: 50px;
         background-color: #0096A1;
         border-radius: 50%;
-        right: 47px;
+        right: 70px;
         top: 22px;
         cursor: pointer;
         position: absolute;
@@ -589,6 +600,9 @@
     .head {
         margin-top: 116px;
     }
+    .header__wrapper {
+        width: 482px;
+    }
 }
 @media(max-width: 684px){
   .tarvitsetko__down-inner__item:nth-child(3),
@@ -625,6 +639,11 @@
 
 }
 @media(max-width: 630px){
+    .container {
+        max-width: 600px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
     .korlea {
         padding: 73px 23px 55px;
     }
@@ -674,8 +693,14 @@
     .tarvitsetko__down-inner__item {
         width: 50%;
     }
+    .menu {
+        right: 100px;
+    }
 }
 @media(max-width: 590px){
+    .container {
+        max-width: 450px;
+    }
     .gallery__item, .gallery__item img {
         width: 255px;
         height: 185px;
@@ -699,6 +724,18 @@
         height: 71px;
         font-size: 11px;
         line-height: 16px;
+    }
+    .korlea__slider .slick-arrow.slick-next {
+        right: 20px;
+    }
+    .korlea__slider .slick-arrow.slick-prev {
+        left:  20px;
+    }
+    .tarvitsetko__slider .slick-arrow.slick-next {
+        right: 33px;
+    }
+    .tarvitsetko__slider .slick-arrow.slick-prev {
+        left: 33px;
     }
 
 }
