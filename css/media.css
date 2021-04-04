@@ -641,8 +641,7 @@
 @media(max-width: 630px){
     .container {
         max-width: 600px;
-        padding-left: 3px;
-        padding-right: 3px;
+        padding-left: 10px;
     }
     .korlea {
         padding: 73px 23px 55px;
@@ -698,8 +697,12 @@
     }
 }
 @media(max-width: 590px){
+    .header {
+        width: 590px;
+    }
     .container {
         max-width: 450px;
+        margin-left: 0;
     }
     .gallery__item, .gallery__item img {
         width: 255px;
