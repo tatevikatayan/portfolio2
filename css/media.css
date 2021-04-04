@@ -699,6 +699,7 @@
 @media(max-width: 590px){
     .header {
         padding-bottom: 9px;
+        width: 590px;
     }
     .container {
         max-width: 450px;
