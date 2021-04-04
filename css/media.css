@@ -701,6 +701,9 @@
         padding-bottom: 9px;
         width: 500px;
     }
+    .menu {
+        right: 200px;
+    }
     .container {
         max-width: 450px;
         margin-left: -40px;
